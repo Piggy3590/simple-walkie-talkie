@@ -28,8 +28,8 @@ Currently only 1.20.1 is supported.
 
 *Range can be changed in mod config*
 ## Credits
-Original Code: Fllaton
-Sound: Northwood Studios (SCP: Secret Laboratory)
+> Original Code: Fllaton
+> Sound: Northwood Studios (SCP: Secret Laboratory)
 
 ### Translators :
 
