@@ -1,0 +1,21 @@
+{
+  "radio_open": {
+    "subtitle": "subtitles.walkietalkie.radio_open",
+    "sounds": [
+      "walkietalkie:radio_open1",
+	  "walkietalkie:radio_open2",
+	  "walkietalkie:radio_open3",
+	  "walkietalkie:radio_open4"
+    ]
+  },
+  "radio_close": {
+    "subtitle": "subtitles.walkietalkie.radio_close",
+    "sounds": [
+      "walkietalkie:radio_close1",
+	  "walkietalkie:radio_close2",
+	  "walkietalkie:radio_close3",
+	  "walkietalkie:radio_close4"
+    ]
+  }
+}
+
