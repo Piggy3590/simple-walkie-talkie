@@ -14,14 +14,7 @@
 This mod adds two-way radios with different upgrades.
 
 ## Versions maintained for updates
-This mod will receive no further improvements except for bug fixes in these versions:
-| Minecraft Version | Fabric | Forge |
-|-------------------|--------|-------|
-| 1.20.1       | ✅      | ✅     |
-| 1.19.3-4          | ✅      | ✅     |
-| 1.19.2            | ✅      | ❌     |
-| 1.18.2            | ❌      | ❌     |
-| 1.16.5            | ❌      | ❌     |
+Currently only 1.20.1 is supported.
 
 ## Features
 + An interface for configuring the radio
@@ -32,21 +25,13 @@ This mod will receive no further improvements except for bug fixes in these vers
 + Upgrade to extend the limit
 + Add speaker block
 + Configure maximum channel in mod config
-## Upgrades
-+ Wood: 128 block distance
-+ Stone: 256 block distance
-+ Iron: 512 block distance
-+ Diamond: 1024 block distance
-+ Netherite: 2048 block distance
 
 *Range can be changed in mod config*
 ## Credits
-### Textures and models :
-+ **Meallows**
+Original Code: Fllaton
+Sound: Northwood Studios (SCP: Secret Laboratory)
 
 ### Translators :
-+ Russian: **Heimdallr-1**
-+ German: **Kampftroll**
 
 ### Mod :
 [Simple Voice Chat](https://github.com/henkelmax/simple-voice-chat)
