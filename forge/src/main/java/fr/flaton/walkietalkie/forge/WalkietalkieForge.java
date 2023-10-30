@@ -13,6 +13,15 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLPaths;
 
+import fr.flaton.walkietalkie.block.ModBlocks;
+import fr.flaton.walkietalkie.block.entity.ModBlockEntities;
+import fr.flaton.walkietalkie.item.ModItemGroup;
+import fr.flaton.walkietalkie.item.ModItems;
+import fr.flaton.walkietalkie.item.WalkieTalkieItem;
+import fr.flaton.walkietalkie.network.ModMessages;
+import fr.flaton.walkietalkie.screen.ModScreenHandlers;
+import fr.flaton.walkietalkie.sound.ModSounds;
+
 @Mod(WalkieTalkie.MOD_ID)
 public class WalkietalkieForge {
     public WalkietalkieForge() {
@@ -21,7 +30,15 @@ public class WalkietalkieForge {
         ModConfig config = new ModConfig(FMLPaths.CONFIGDIR.get());
         config.loadModConfig();
 
-        WalkieTalkie.init();
+        ModBlocks.register();
+		ModItems.register();
+		ModItemGroup.register();
+		ModSounds.registerSounds();
+		
+		ModBlockEntities.register();
+		ModScreenHandlers.register();
+
+		ModMessages.registerC2SPackets();
     }
 
     @Mod.EventBusSubscriber(modid = WalkieTalkie.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
