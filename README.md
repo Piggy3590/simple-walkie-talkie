@@ -3,7 +3,7 @@
 <!-- prettier-ignore-start -->
 > **Warning**
 >
-> This is not an official addon. **Please don't go to the Simple Voice Chat discord server for support!
+> This is not an official addon. **Please don't go to the Simple Voice Chat discord server for support!**
 >
 > This mod **requires [Simple Voice Chat](https://github.com/henkelmax/simple-voice-chat) and [Architectury API](https://github.com/architectury/architectury-api)**
 > 
@@ -13,7 +13,7 @@
 This mod adds two-way radios with different upgrades.
 
 ## Versions maintained for updates
-Currently only 1.20.1 is supported.
+Currently, only 1.20.1 is supported.
 
 ## Features outside of Walkie-Talkie mod
 + Right-click to toggle power state
@@ -22,10 +22,10 @@ Currently only 1.20.1 is supported.
 + Changing Textures Based on Power State
 *Range can be changed in mod config*
 ## Credits
-> Original Code: Fllaton
-> Sound: Northwood Studios (SCP: Secret Laboratory)
-
++ Original Code: Fllaton
++ Sound: Northwood Studios (SCP: Secret Laboratory)
 ### Translators :
-+ IDK
++ Russian: **Heimdallr-1**
++ German: **Kampftroll**
 ### Mod :
 [Simple Voice Chat](https://github.com/henkelmax/simple-voice-chat)
